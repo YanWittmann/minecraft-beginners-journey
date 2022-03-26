@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Build and light a nether portal"
+        },
+        "description": {
+            "text": "Using the obsidian to build a vertical 4 blocks wide, 5 blocks high, hollow frame of obsidian blocks. The corners don't have to be filled.\nUse your flint & steel to light the portal."
+        },
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "beginner:phase_diamond_age/mine_obsidian_10"
+}

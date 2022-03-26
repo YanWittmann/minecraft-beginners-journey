@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Mine obsidian"
+            "text": "Obtain flint"
         },
         "description": {
-            "text": "Use your diamond pickaxe to mine an obsidian block. Obsidian is formed by lava getting cooled by water. Lava can be found deep underground."
+            "text": "Gravel is mostly found in rivers and oceans. Mine gravel until a piece of flint drops, instead of the gravel."
         },
         "icon": {
-            "item": "minecraft:obsidian"
+            "item": "minecraft:flint"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:obsidian"
+                            "minecraft:flint"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_diamond_age/craft_diamond_pickaxe"
+    "parent": "beginner:phase_stone_age/smelt_iron"
 }

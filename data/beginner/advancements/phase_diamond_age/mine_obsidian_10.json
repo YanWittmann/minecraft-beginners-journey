@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Mine obsidian"
+            "text": "Mine 10 obsidian"
         },
         "description": {
-            "text": "Use your diamond pickaxe to mine an obsidian block. Obsidian is formed by lava getting cooled by water. Lava can be found deep underground."
+            "text": "Now repeat this 9 more times until you have at least 10 obsidian. You will need at least 4 more later, so it can't hurt to take more."
         },
         "icon": {
             "item": "minecraft:obsidian"
@@ -24,12 +24,12 @@
                             "minecraft:obsidian"
                         ],
                         "count": {
-                            "min": 1
+                            "min": 10
                         }
                     }
                 ]
             }
         }
     },
-    "parent": "beginner:phase_diamond_age/craft_diamond_pickaxe"
+    "parent": "beginner:phase_diamond_age/mine_obsidian"
 }

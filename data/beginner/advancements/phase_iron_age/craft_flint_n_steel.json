@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Mine obsidian"
+            "text": "Craft a flint & steel"
         },
         "description": {
-            "text": "Use your diamond pickaxe to mine an obsidian block. Obsidian is formed by lava getting cooled by water. Lava can be found deep underground."
+            "text": "Using the flint and an iron ingot, craft a flint & steel. This can be used to light fires by right-clicking blocks."
         },
         "icon": {
-            "item": "minecraft:obsidian"
+            "item": "minecraft:flint_and_steel"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:obsidian"
+                            "minecraft:flint_and_steel"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_diamond_age/craft_diamond_pickaxe"
+    "parent": "beginner:phase_iron_age/obtain_flint"
 }

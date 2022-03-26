@@ -4,7 +4,7 @@
             "text": "Craft a crafting table"
         },
         "description": {
-            "text": "Using the four planks, craft a crafting table by placing the planks in a 2x2 formation."
+            "text": "Using the four planks, craft a crafting table by placing the planks in a 2x2 formation. A crafting table has a 3x3 grid, allowing you to craft more complex items."
         },
         "icon": {
             "item": "minecraft:crafting_table"
