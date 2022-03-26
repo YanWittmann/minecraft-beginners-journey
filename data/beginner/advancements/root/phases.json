@@ -1,12 +1,12 @@
 {
     "display": {
         "title": {
-            "text": "Beginner's Journey: Main path",
+            "text": "Beginner's Journey",
             "color": "gold",
             "bold": true
         },
         "description": {
-            "text": "Your adventure begins here!\nFolow these steps and you will play through all of Minecraft's main quest."
+            "text": "Your adventure begins here!\nFollow these steps and you will play through all of Minecraft's main quest."
         },
         "icon": {
             "item": "minecraft:honeycomb"
