@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether mob: Zombified Piglin"
+        },
+        "description": {
+            "text": "These mobs are passive until attacked. They will then become aggressive and attack you, until you are dead."
+        },
+        "icon": {
+            "item": "minecraft:zombified_piglin_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "beginner:phase_nether/reach_nether"
+}

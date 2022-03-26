@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Find a nether bastion remnant"
+        },
+        "description": {
+            "text": "The bastion comes in 4 different variants, all made of blackstone and are a great source of gold. They host a lot of piglins and their more dangerous variant: the piglin brutes. They deal massive damage and cannot be tricked by gold armor. If you open chests or mine gold, piglins will attack you."
+        },
+        "icon": {
+            "item": "minecraft:cracked_polished_blackstone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "bastion_remnant"
+            }
+        }
+    },
+    "parent": "beginner:phase_nether/reach_nether"
+}

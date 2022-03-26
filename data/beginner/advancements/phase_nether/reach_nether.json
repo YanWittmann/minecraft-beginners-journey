@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the nether portal"
+        },
+        "description": {
+            "text": "Prepare yourself by packing food, wearing your armor and taking your tools & shield. Also, if you already have some, use your gold to craft any golden piece of armor and wear it. It will come in handy later. Then step through the portal to enter the nether."
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether"
+            }
+        }
+    },
+    "parent": "beginner:phase_nether/light_portal"
+}
