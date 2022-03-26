@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Mushroom fields"
+        },
+        "description": {
+            "text": "An extremely rare biome that hosts giant mushrooms and mushroom cows. No aggressive mobs are found in this biome."
+        },
+        "icon": {
+            "item": "minecraft:red_mushroom"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:mushroom_fields": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "location": {
+                "biome": "minecraft:mushroom_fields"
+              }
+            }
+          }
+    },
+    "parent": "beginner:root/biomes"
+}

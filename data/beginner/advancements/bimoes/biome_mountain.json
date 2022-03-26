@@ -1,0 +1,87 @@
+{
+    "display": {
+        "title": {
+            "text": "Mountains: snow-covered giants"
+        },
+        "description": {
+            "text": "Tall mountains, sometimes covered in snow, sometimes sparsely covered with trees. Be careful when wandering around: powdered snow will let you sink into the ground, where you will freeze to death. There are many different types of mountains."
+        },
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:snowy_slopes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:snowy_slopes"
+                }
+            }
+        },
+        "minecraft:windswept_gravelly_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:windswept_gravelly_hills"
+                }
+            }
+        },
+        "minecraft:windswept_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:windswept_hills"
+                }
+            }
+        },
+        "minecraft:grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:grove"
+                }
+            }
+        },
+        "minecraft:meadow": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:meadow"
+                }
+            }
+        },
+        "minecraft:jagged_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:jagged_peaks"
+                }
+            }
+        },
+        "minecraft:stony_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:stony_peaks"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:snowy_slopes",
+            "minecraft:windswept_gravelly_hills",
+            "minecraft:grove",
+            "minecraft:windswept_hills",
+            "minecraft:meadow",
+            "minecraft:jagged_peaks",
+            "minecraft:stony_peaks"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

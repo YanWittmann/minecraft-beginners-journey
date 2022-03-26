@@ -1,2 +1,3 @@
-# minecraft-beginners-journey
-A datapack containing advancements guiding new players through the game
+# Beginner's Journey
+
+A minecraft datapack containing advancements guiding new players through the game.

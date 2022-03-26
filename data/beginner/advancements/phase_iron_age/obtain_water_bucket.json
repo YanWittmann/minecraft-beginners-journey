@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Pick up water"
+        },
+        "description": {
+            "text": "Right-click a water source (not flowing water!) with the bucket to pick it up. Use it to put out fires, avoid fall damage and more. Always have one on you."
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:water_bucket"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_iron_age/craft_bucket"
+}

@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "River: gentle flow of water"
+        },
+        "description": {
+            "text": "Connecting to the ocean, they are a great way of traveling far distances with boats. Contain sand, clay, sugar cane, seagrass, fish, squids and drowned."
+        },
+        "icon": {
+            "item": "minecraft:clay"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:frozen_river": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:frozen_river"
+            }
+          }
+        },
+        "minecraft:river": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:river"
+            }
+          }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:frozen_river",
+            "minecraft:river"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "First mining session"
+        },
+        "description": {
+            "text": "Dig underground (not straight down!) or explore the area to find a cave in order to mine at least 6 raw iron and some coal. Make sure to take your furnace and crafting table with you!"
+        },
+        "icon": {
+            "item": "minecraft:raw_iron"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:raw_iron"
+                        ],
+                        "count": {
+                            "min": 6
+                        }
+                    },
+                    {
+                        "items": [
+                            "minecraft:coal"
+                        ],
+                        "count": {
+                            "min": 4
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/craft_furnace"
+}

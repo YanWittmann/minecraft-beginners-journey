@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a crafting table"
+        },
+        "description": {
+            "text": "Using the four planks, craft a crafting table by placing the planks in a 2x2 formation."
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:crafting_table"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_1/craft_planks"
+}

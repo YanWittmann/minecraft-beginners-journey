@@ -1,0 +1,78 @@
+{
+  "display": {
+    "title": {
+      "text": "General forest: Lots of wood"
+    },
+    "description": {
+      "text": "Regular forest biomes. Contain different types of wood, grass and flowers. Many different animals can be found here."
+    },
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:forest"
+        }
+      }
+    },
+    "minecraft:flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:flower_forest"
+        }
+      }
+    },
+    "minecraft:birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:birch_forest"
+        }
+      }
+    },
+    "minecraft:dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:dark_forest"
+        }
+      }
+    },
+    "minecraft:windswept_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:windswept_forest"
+        }
+      }
+    },
+    "minecraft:old_growth_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:old_growth_birch_forest"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:forest",
+      "minecraft:flower_forest",
+      "minecraft:birch_forest",
+      "minecraft:dark_forest",
+      "minecraft:windswept_forest",
+      "minecraft:old_growth_birch_forest"
+    ]
+  ],
+  "parent": "beginner:root/biomes"
+}

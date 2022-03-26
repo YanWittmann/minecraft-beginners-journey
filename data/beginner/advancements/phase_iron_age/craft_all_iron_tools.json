@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft iron tools"
+        },
+        "description": {
+            "text": "Use iron ingots and some sticks to craft better and new versions your tools: iron axe, shovel and sword"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_axe"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": [
+                            "minecraft:iron_sword"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": [
+                            "minecraft:iron_shovel"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_iron_age/craft_iron_pickaxe"
+}

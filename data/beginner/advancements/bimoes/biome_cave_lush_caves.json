@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Lush caves: Stay for a bit"
+        },
+        "description": {
+            "text": "Stones covered in moss, vines and flowers. Glow berries can be harvested and eaten. Azalea trees above ground are always above lush caves. Axolotls can be found in the aquifers."
+        },
+        "icon": {
+            "item": "minecraft:small_dripleaf"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "minecraft:lush_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:lush_caves"
+          }
+        }
+      }
+    },
+    "requirements": [
+        [
+            "minecraft:lush_caves"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

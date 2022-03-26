@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Find diamonds"
+        },
+        "description": {
+            "text": "Hidden deep underground, where the stone turns black, diamond ores can be found. Mine this valuable resource with your iron pickaxe."
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_diamond_age/reach_deepslate_area"
+}

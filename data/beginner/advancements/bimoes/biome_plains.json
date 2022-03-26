@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Plains: A great starting area"
+        },
+        "description": {
+            "text": "Sometimes grassy, sometimes covered in snow or with a bunch of flowers, the plains has one thing in common: they're always flat.\nCaves can be easily spotted. Contains villages, pillager outposts and horses."
+        },
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:snowy_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:snowy_plains"
+                }
+            }
+        },
+        "minecraft:plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:plains"
+                }
+            }
+        },
+        "minecraft:sunflower_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:sunflower_plains"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:snowy_plains",
+            "minecraft:plains",
+            "minecraft:sunflower_plains"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

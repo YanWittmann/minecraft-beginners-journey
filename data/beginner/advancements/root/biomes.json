@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Beginner's Journey: Biomes Log",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Can you find all biomes?\nCheck back for useful information on the biomes you visit!"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/sandstone.png"
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

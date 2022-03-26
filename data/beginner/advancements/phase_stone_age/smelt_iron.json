@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Smelt iron ingots"
+        },
+        "description": {
+            "text": "Place the raw iron you mined in the furnace and smelt them using the coal you found. Every piece of coal can smelt 8 items."
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_ingot"
+                        ],
+                        "count": {
+                            "min": 6
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/mining_session"
+}

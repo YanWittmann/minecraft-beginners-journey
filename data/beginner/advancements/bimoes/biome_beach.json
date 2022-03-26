@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Beach: Why not go for a swim?"
+        },
+        "description": {
+            "text": "Plenty of sand, with an ocean or river next to it. Finding a treasure map in a shipwreck will lead you to a beach. Turtles and fish can be found here. Make sure to grab some sugar cane."
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "minecraft:stony_shore": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:stony_shore"
+          }
+        }
+      },
+      "minecraft:snowy_beach": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:snowy_beach"
+          }
+        }
+      },
+      "minecraft:beach": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:beach"
+          }
+        }
+      }
+    },
+    "requirements": [
+        [
+            "minecraft:stony_shore",
+            "minecraft:snowy_beach",
+            "minecraft:beach"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

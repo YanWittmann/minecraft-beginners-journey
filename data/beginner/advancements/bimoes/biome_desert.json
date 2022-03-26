@@ -1,0 +1,33 @@
+{
+  "display": {
+    "title": {
+      "text": "Desert: an inhospitable place"
+    },
+    "description": {
+      "text": "Consists mostly of sand dunes, dead bushes and cacti. At night, a special mob, the husk, spawns which will give you the hunger effect. Desert pyramids, villages and pillager outposts can be found."
+    },
+    "icon": {
+      "item": "minecraft:cactus"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:desert"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:desert"
+    ]
+  ],
+  "parent": "beginner:root/biomes"
+}

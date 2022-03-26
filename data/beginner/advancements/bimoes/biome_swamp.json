@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Swamp: a sticky situation"
+        },
+        "description": {
+            "text": "Shallow pools of water with floating lily pads. Clay, sand and dirt are the most common blocks. Trees are covered in vines. Swamp Huts with a black cat and a witch generate here. Slimes spawn naturally, most commonly in nights with a full moon."
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swamp",
+                "smokey": false
+            }
+        }
+    },
+    "parent": "beginner:root/biomes"
+}

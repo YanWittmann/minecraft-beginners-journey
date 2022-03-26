@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Collect cobblestone"
+        },
+        "description": {
+            "text": "Use your pickaxe to break the blocks beneath your feet and mine the gray stone to collect at least 3 cobblestone."
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cobblestone"
+                        ],
+                        "count": {
+                            "min": 3
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_1/craft_wooden_pickaxe"
+}

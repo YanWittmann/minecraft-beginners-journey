@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a furnace"
+        },
+        "description": {
+            "text": "Collect 8 more cobblestone to craft a furnace. A furnace lets you cook food and smelt ores."
+        },
+        "icon": {
+            "item": "minecraft:furnace"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:furnace"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/craft_stone_pickaxe"
+}

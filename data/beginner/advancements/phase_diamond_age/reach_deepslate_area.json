@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Go even deeper"
+        },
+        "description": {
+            "text": "Deeper and deeper, the stone begins to turn black. Prepare yourself before venturing into the depths of the caves."
+        },
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "beginner:phase_iron_age/craft_iron_pickaxe"
+}

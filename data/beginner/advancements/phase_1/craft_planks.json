@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft planks"
+        },
+        "description": {
+            "text": "Open your inventory using 'E' and place the planks in the 2x2 crafting grid to craft planks."
+        },
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:oak_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:warped_planks",
+                            "minecraft:crimson_planks",
+                            "minecraft:dark_oak_planks"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_1/collect_log"
+}

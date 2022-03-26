@@ -1,0 +1,60 @@
+{
+  "display": {
+    "title": {
+      "text": "Taiga: Sweet berries and foxes!"
+    },
+    "description": {
+      "text": "A biome covered by a forest of spruce trees. Right-click the sweet berry bushes to collect the berries. Wolves can be tabed with bones. Villages and pillager outposts generate here. Has snowy variants."
+    },
+    "icon": {
+      "item": "minecraft:sweet_berries"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:old_growth_pine_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:old_growth_pine_taiga"
+        }
+      }
+    },
+    "minecraft:snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:snowy_taiga"
+        }
+      }
+    },
+    "minecraft:taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:taiga"
+        }
+      }
+    },
+    "minecraft:old_growth_spruce_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:old_growth_spruce_taiga"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:old_growth_pine_taiga",
+      "minecraft:snowy_taiga",
+      "minecraft:taiga",
+      "minecraft:old_growth_spruce_taiga"
+    ]
+  ],
+  "parent": "beginner:root/biomes"
+}

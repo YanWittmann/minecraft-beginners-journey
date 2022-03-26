@@ -1,0 +1,51 @@
+{
+  "display": {
+    "title": {
+      "text": "Badlands: An uncommon biome"
+    },
+    "description": {
+      "text": "Found alongside desert biomes, contains a high concentration of red sand and terracotta. The grounds are said to hold never ending amounts of gold. Mineshafts are very common."
+    },
+    "icon": {
+      "item": "minecraft:dead_bush"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:badlands"
+        }
+      }
+    },
+    "minecraft:eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:eroded_badlands"
+        }
+      }
+    },
+    "minecraft:wooded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:wooded_badlands"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:badlands",
+      "minecraft:eroded_badlands",
+      "minecraft:wooded_badlands"
+    ]
+  ],
+  "parent": "beginner:root/biomes"
+}

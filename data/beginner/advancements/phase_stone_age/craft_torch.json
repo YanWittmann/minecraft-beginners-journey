@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Let there be light!"
+        },
+        "description": {
+            "text": "Use some sticks and coal to craft torches."
+        },
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:torch"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/mining_session"
+}

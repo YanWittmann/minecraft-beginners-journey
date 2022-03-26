@@ -1,0 +1,51 @@
+{
+  "display": {
+    "title": {
+      "text": "Jungle: densely forested biome"
+    },
+    "description": {
+      "text": "With trees that can reach up to 31 blocks tall with 2×2 thick trunks, this biome is ideal for collecting wood. Contains melons, cocoa beans, jungle temples, parrots, and unique mobs. There is a bamboo variant."
+    },
+    "icon": {
+      "item": "minecraft:vine"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:sparse_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:sparse_jungle"
+        }
+      }
+    },
+    "minecraft:bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:bamboo_jungle"
+        }
+      }
+    },
+    "minecraft:jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:jungle"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:sparse_jungle",
+      "minecraft:bamboo_jungle",
+      "minecraft:jungle"
+    ]
+  ],
+  "parent": "beginner:root/biomes"
+}

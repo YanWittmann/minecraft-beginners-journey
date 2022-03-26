@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Savanna: flat and dry biome"
+        },
+        "description": {
+            "text": "Acacia trees scatter the landscape, alongside the tall grass. Villages and pillager outposts are common. Horses spawn here. Has a plateau varaint."
+        },
+        "icon": {
+            "item": "minecraft:acacia_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:windswept_savanna": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:windswept_savanna"
+            }
+          }
+        },
+        "minecraft:savanna": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:savanna"
+            }
+          }
+        },
+        "minecraft:savanna_plateau": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:savanna_plateau"
+            }
+          }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:windswept_savanna",
+            "minecraft:savanna",
+            "minecraft:savanna_plateau"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

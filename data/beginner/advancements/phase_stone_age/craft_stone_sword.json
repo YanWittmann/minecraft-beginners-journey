@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a stone sword"
+        },
+        "description": {
+            "text": "Use cobblestone and some sticks to craft a stone sword. A sword will deal more damage to enemies. Spam-clicking a sword will reduce the damage dealt."
+        },
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stone_sword",
+                            "minecraft:iron_sword",
+                            "minecraft:golden_sword",
+                            "minecraft:diamond_sword"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_1/collect_3_cobblestone"
+}

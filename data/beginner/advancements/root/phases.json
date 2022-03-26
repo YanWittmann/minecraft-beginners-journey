@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Beginner's Journey: Main path",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Your adventure begins here!\nFolow these steps and you will play through all of Minecraft's main quest."
+        },
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/deepslate.png"
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

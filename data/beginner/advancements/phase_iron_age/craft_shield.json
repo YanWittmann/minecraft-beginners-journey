@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a shield"
+        },
+        "description": {
+            "text": "Hold the shield in your offhand (select in hotbar & press 'F') and hold right click to block 100% of the damage coming from the direction you look in."
+        },
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:shield"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_iron_age/craft_all_iron_tools"
+}

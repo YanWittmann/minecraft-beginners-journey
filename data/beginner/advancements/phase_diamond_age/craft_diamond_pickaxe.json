@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a diamond pickaxe"
+        },
+        "description": {
+            "text": "Use 3 diamonds and some sticks to craft a diamond pickaxe. This is a much better and durable pickaxe, allowing you to mine even the hardest materials."
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_pickaxe"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_diamond_age/mine_diamonds"
+}

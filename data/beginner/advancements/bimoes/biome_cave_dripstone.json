@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Dripstone caves: pointy business"
+        },
+        "description": {
+            "text": "Caves filled with dripstone blocks and pointed dripstone stalagmites. Copper is much more common here. Stalactites with lava above them will slowly fill cauldrons below."
+        },
+        "icon": {
+            "item": "minecraft:pointed_dripstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "minecraft:dripstone_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:dripstone_caves"
+          }
+        }
+      }
+    },
+    "requirements": [
+        [
+            "minecraft:dripstone_caves"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

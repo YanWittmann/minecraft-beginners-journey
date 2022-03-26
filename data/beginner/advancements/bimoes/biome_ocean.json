@@ -1,0 +1,105 @@
+{
+    "display": {
+        "title": {
+            "text": "Ocean: large biome of water"
+        },
+        "description": {
+            "text": "Has multiple variants that each contain their own set of unique features, like fish, squids, drowned, kelp, shipwrecks, underwater ruins, dolphins, ocean monuments, coral reefs, and more."
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "minecraft:deep_frozen_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:deep_frozen_ocean"
+                }
+            }
+        },
+        "minecraft:frozen_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:frozen_ocean"
+                }
+            }
+        },
+        "minecraft:deep_cold_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:deep_cold_ocean"
+                }
+            }
+        },
+        "minecraft:cold_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:cold_ocean"
+                }
+            }
+        },
+        "minecraft:deep_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:deep_ocean"
+                }
+            }
+        },
+        "minecraft:ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:ocean"
+                }
+            }
+        },
+        "minecraft:deep_lukewarm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:deep_lukewarm_ocean"
+                }
+            }
+        },
+        "minecraft:lukewarm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:lukewarm_ocean"
+                }
+            }
+        },
+        "minecraft:warm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:warm_ocean"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:deep_frozen_ocean",
+            "minecraft:frozen_ocean",
+            "minecraft:deep_cold_ocean",
+            "minecraft:cold_ocean",
+            "minecraft:deep_ocean",
+            "minecraft:ocean",
+            "minecraft:deep_lukewarm_ocean",
+            "minecraft:lukewarm_ocean",
+            "minecraft:warm_ocean"
+        ]
+    ],
+    "parent": "beginner:root/biomes"
+}

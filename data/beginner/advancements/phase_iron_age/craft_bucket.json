@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a bucket"
+        },
+        "description": {
+            "text": "Use iron ingots to craft a bucket."
+        },
+        "icon": {
+            "item": "minecraft:bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bucket"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/smelt_iron"
+}

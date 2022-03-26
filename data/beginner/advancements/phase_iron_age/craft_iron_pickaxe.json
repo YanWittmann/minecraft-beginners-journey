@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft an iron pickaxe"
+        },
+        "description": {
+            "text": "Use iron ingots and some sticks to craft an iron pickaxe. This upgrade is able to mine a new set of blocks. If your hunger bar is empty, now is the time to pursue the food trail."
+        },
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_pickaxe",
+                            "minecraft:diamond_pickaxe"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/smelt_iron"
+}
