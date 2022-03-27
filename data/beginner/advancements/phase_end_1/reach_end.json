@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the black portal"
+        },
+        "description": {
+            "text": "With the portal active, you jump into the unknown. A dark, otherworldly landscape greets you.\nIf you are below ground, dig out. If you are floating in the air, build a bridge to the main island.\nMake sure not to fall into the void below."
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_end"
+            }
+        }
+    },
+    "parent": "beginner:phase_end_1/final_preparations"
+}

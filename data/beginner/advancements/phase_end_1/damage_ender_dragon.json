@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Hurt the dragon"
+        },
+        "description": {
+            "text": "Now's the time! Shoot the dragon with your arrows while he is flying, use your sword to attack him when he perches in the middle."
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "parent": "beginner:phase_end_1/destroy_end_crystal"
+}

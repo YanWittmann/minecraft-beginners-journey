@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Destroy the end crystals"
+        },
+        "description": {
+            "text": "You final enemy is there: the Ender Dragon. Defeating it in this state is almost impossible: you will first have to destroy the end crystals that rest on the tall obsidian pillars. Shoot them with arrows or build up with blocks. If endermen chase you, place water to avoid them."
+        },
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "beginner:phase_end_1/reach_end"
+}

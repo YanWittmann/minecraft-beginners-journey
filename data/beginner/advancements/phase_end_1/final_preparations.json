@@ -4,10 +4,10 @@
             "text": "Final preparations for the end"
         },
         "description": {
-            "text": "So this is it.\nPlace your bed down and right-click it to set your spawn point."
+            "text": "So this is it.\nPlace your bed down and right-click it to set your spawn point.\nYou know what to do."
         },
         "icon": {
-            "item": "minecraft:end_portal_frame"
+            "item": "minecraft:red_bed"
         },
         "frame": "task",
         "show_toast": false,
