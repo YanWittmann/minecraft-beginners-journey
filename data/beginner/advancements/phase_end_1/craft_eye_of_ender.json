@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft 14 ender eyes"
+        },
+        "description": {
+            "text": "Use the blaze powder and ender pearls to craft ender eyes.\nOnly proceed with the next step if you are ready to finish the game (take your enchanted armor and tools, enough food, shield, water bucket, a bed, and so on)."
+        },
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ender_eye"
+                        ],
+                        "count": {
+                            "min": 14
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_nether/obtain_ender_pearls_14"
+}

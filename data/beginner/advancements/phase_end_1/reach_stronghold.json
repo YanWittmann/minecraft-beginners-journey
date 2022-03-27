@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Find the Stronghold in the deep"
+        },
+        "description": {
+            "text": "If the ender eyes converge to a single point, it's time to dig undergound. The stronghold is a large set of corridors with a chamber that contains the end portal."
+        },
+        "icon": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "stronghold"
+            }
+        }
+    },
+    "rewards": {
+        "function": "beginner:advancements/end_preparations_revoke"
+    },
+    "parent": "beginner:phase_end_1/throw_eye_of_ender"
+}

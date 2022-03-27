@@ -1,0 +1,50 @@
+{
+    "display": {
+        "title": {
+            "text": "Final preparations for the end"
+        },
+        "description": {
+            "text": "So this is it.\nPlace your bed down and right-click it to set your spawn point."
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "stronghold"
+            }
+        },
+        "redbed": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:red_bed"
+            }
+        },
+        "bluebed": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:blue_bed"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "redbed",
+            "bluebed"
+        ],
+        [
+            "stronghold"
+        ]
+    ],
+    "rewards": {
+        "function": "beginner:advancements/end_preparations_done"
+    },
+    "parent": "beginner:phase_end_1/use_eye_of_ender_on_portal"
+}

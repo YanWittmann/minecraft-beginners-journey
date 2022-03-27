@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "A mysterious portal frame"
+        },
+        "description": {
+            "text": "The main portal room contains a silverfish spawner block. Break it first. Then place the eyes of ender in the portal frames by right-clicking them. Before you proceed, make sure to have everything on you that you need for the final confrontation."
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "beginner:phase_end_1/reach_stronghold"
+}

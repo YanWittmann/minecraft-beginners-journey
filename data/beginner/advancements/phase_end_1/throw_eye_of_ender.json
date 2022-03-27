@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Throw an eye of ender, follow it"
+        },
+        "description": {
+            "text": "The stronghold is the location where you can find the end portal, which will lead you to the end dimension. It is hidden deep underground. Hold the ender eyes and right-click to throw them. They will float in the direction of the closest stronghold. They have a chance of breaking every time you do this, so don't waste them."
+        },
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:used_ender_eye"
+        }
+    },
+    "parent": "beginner:phase_end_1/craft_eye_of_ender"
+}

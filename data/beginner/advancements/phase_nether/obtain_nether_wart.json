@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Collect Nether Warts"
+        },
+        "description": {
+            "text": "Nether warts can be found in the nether fortresses corridors. Make sure to also grab the soul sand below, as this is the only block they can be planted on."
+        },
+        "icon": {
+            "item": "minecraft:nether_wart"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:nether_wart"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_nether/reach_fortress"
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Collect 14 ender pearls"
+        },
+        "description": {
+            "text": "Ender pearls are dropped by enderman or by bartering with piglins in the nether. You can right-click to throw them, which allows you teleport wherever they land."
+        },
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ender_pearl"
+                        ],
+                        "count": {
+                            "min": 14
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_nether/craft_blaze_powder"
+}

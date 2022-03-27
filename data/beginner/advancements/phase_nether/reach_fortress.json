@@ -4,7 +4,7 @@
             "text": "Find a nether fortress"
         },
         "description": {
-            "text": "The nether fortress is the main reason you came to the nether. Finding blazes is your main objective, but watch out for other enemies as well. Finding loot chests is also an important part."
+            "text": "The nether fortress is a large, complex set of bridges, corridors and towers. It is the main reason you came to the nether, as this is the only location blazes spawn consistently. The enclosed corridors contain loot chests."
         },
         "icon": {
             "item": "minecraft:nether_bricks"

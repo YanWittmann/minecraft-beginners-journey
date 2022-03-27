@@ -4,7 +4,7 @@
             "text": "Nether mob: Blaze"
         },
         "description": {
-            "text": "A blaze is an enemy that shoots fireballs at you. Every fortress contains a 'spawner' (a block looking like a flaming cage), which creates endless amounts of them. Kill them to receive blaze rods."
+            "text": "A blaze is an enemy that shoots fireballs at you. Every fortress contains a 'spawner' (a block looking like a flaming cage), which creates endless amounts of them. Make sure to use your shield as a protection."
         },
         "icon": {
             "item": "minecraft:blaze_spawn_egg"
