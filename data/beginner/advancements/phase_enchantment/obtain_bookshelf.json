@@ -4,7 +4,7 @@
             "text": "Higher levels of enchantments"
         },
         "description": {
-            "text": "If you want to enchant higher levels of enchantments, craft bookshelves and place them around the table with a 1 block gap. Particles will start floating around."
+            "text": "If you want to enchant higher levels of enchantments, craft bookshelves and place them around the table, leaving a 1 block gap. Particles will start floating around."
         },
         "icon": {
             "item": "minecraft:bookshelf"
