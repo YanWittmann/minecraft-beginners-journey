@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Having animals (Cow)"
+        },
+        "description": {
+            "text": "If you hold wheat, cows and sheep will follow you.\nCraft fences and a fence gate using wood to build an encaged area to keep them in."
+        },
+        "icon": {
+            "item": "minecraft:cow_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "beginner:phase_shelter/obtain_wheat"
+}

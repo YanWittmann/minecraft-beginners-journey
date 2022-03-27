@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Obtain flint"
+            "text": "Mine gravel"
         },
         "description": {
-            "text": "Gravel is mostly found in rivers and oceans. Mine gravel until a piece of flint drops, instead of the gravel."
+            "text": "Gravel is mostly found in rivers and oceans. Mining gravel will drop a piece of gravel in 1 out of 8 cases."
         },
         "icon": {
-            "item": "minecraft:flint"
+            "item": "minecraft:gravel"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:flint"
+                            "minecraft:gravel"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_iron_age/mine_gravel"
+    "parent": "beginner:phase_stone_age/craft_stone_shovel"
 }

@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Obtain flint"
+            "text": "Craft shears"
         },
         "description": {
-            "text": "Gravel is mostly found in rivers and oceans. Mine gravel until a piece of flint drops, instead of the gravel."
+            "text": "Craft a shear using 2 iron. This tool can shear sheep and mine leaves a lot faster whilst leaving them in their leaf form."
         },
         "icon": {
-            "item": "minecraft:flint"
+            "item": "minecraft:shears"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:flint"
+                            "minecraft:shears"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_iron_age/mine_gravel"
+    "parent": "beginner:phase_shelter/lure_wheat_sheep"
 }

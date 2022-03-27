@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Obtain flint"
+            "text": "Obtain leather"
         },
         "description": {
-            "text": "Gravel is mostly found in rivers and oceans. Mine gravel until a piece of flint drops, instead of the gravel."
+            "text": "Now that you have enough cows, it's time to reduce their population again. A side effect of this is that you now have a lot of leather and food.\nYou might need the leather for later."
         },
         "icon": {
-            "item": "minecraft:flint"
+            "item": "minecraft:leather"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:flint"
+                            "minecraft:leather"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_iron_age/mine_gravel"
+    "parent": "beginner:phase_shelter/lure_wheat_cow"
 }
