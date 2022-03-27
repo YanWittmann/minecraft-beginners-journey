@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Enchant your tools"
+        },
+        "description": {
+            "text": "Right-click the table to open the interface. Place any of your tools and some lapis lazuli on the table. Now you can select the enchantment you want to apply to your tool. This will cost you XP points."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:enchanted_item"
+        }
+    },
+    "parent": "beginner:phase_enchantment/craft_enchantment_table"
+}

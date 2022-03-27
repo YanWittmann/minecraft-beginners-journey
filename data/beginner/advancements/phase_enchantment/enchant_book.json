@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Enchant a book"
+        },
+        "description": {
+            "text": "If you don't like the enchantments presented by the table, you can enchant a book instead. This will put an enchantment on the book and you'll be able to get other enchantments for your tools."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:enchanted_item"
+        }
+    },
+    "parent": "beginner:phase_enchantment/enchant_any_item"
+}

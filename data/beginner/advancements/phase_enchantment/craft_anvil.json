@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Ink sacks"
+            "text": "Combine your tools in an anvil"
         },
         "description": {
-            "text": ""
+            "text": "Anvils require a lot of iron, but will allow you to merge tools together, repair or rename them. When combining tools, the enchantments add up, allowing you to make tools with the exact enchantments you want."
         },
         "icon": {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:anvil"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:ink_sac"
+                            "minecraft:anvil"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_attack_enemies/kill_squid"
+    "parent": "beginner:phase_enchantment/enchant_book"
 }

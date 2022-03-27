@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Ink sacks"
+            "text": "Unenchant your items"
         },
         "description": {
-            "text": ""
+            "text": "Grindstones will unenchant items, allowing you to get another try at enchanting them. You will also get back some of the XP.\nCrafted using a stone slab, some planks and sticks."
         },
         "icon": {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:grindstone"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:ink_sac"
+                            "minecraft:grindstone"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_attack_enemies/kill_squid"
+    "parent": "beginner:phase_enchantment/enchant_book"
 }

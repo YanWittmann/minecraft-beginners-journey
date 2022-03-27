@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Ink sacks"
+            "text": "Craft an enchantment table"
         },
         "description": {
-            "text": ""
+            "text": "Using the spare obsidian, a book and two diamonds, craft an enchantment table and place it somewhere with enough space around it."
         },
         "icon": {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:enchanting_table"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:ink_sac"
+                            "minecraft:enchanting_table"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_attack_enemies/kill_squid"
+    "parent": "beginner:phase_enchantment/craft_book"
 }

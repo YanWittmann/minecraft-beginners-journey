@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Ink sacks"
+            "text": "Higher levels of enchantments"
         },
         "description": {
-            "text": ""
+            "text": "If you want to enchant higher levels of enchantments, craft bookshelves and place them around the table with a 1 block gap. Particles will start floating around."
         },
         "icon": {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:bookshelf"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:ink_sac"
+                            "minecraft:bookshelf"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_attack_enemies/kill_squid"
+    "parent": "beginner:phase_enchantment/craft_enchantment_table"
 }
