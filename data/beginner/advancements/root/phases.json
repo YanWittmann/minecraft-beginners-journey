@@ -6,7 +6,7 @@
             "bold": true
         },
         "description": {
-            "text": "Your adventure begins here!\nFollow these steps and you will play through all of Minecraft's main quest."
+            "text": "Your adventure begins here!\nFollow these steps and you will play through all of Minecraft's main quest.\nIf you can't progress on one branch, try progressing on other branches first!"
         },
         "icon": {
             "item": "minecraft:honeycomb"

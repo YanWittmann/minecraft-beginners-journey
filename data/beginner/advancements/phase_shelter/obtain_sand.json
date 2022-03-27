@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Gather 20 sand"
+        },
+        "description": {
+            "text": "Use your shovel to collect some sand."
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:sand"
+                        ],
+                        "count": {
+                            "min": 20
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/craft_stone_shovel"
+}
