@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Craft a bow"
+            "text": "Craft bone meal"
         },
         "description": {
-            "text": "Use the string you got from the spiders and some sticks to craft a bow.\nYou'll learn how to get arrows by pursuing the seeds branch or by killing skeletons."
+            "text": "Use the bones you got from a skeleton to craft bone meal. If you right-click your crops using the bone meal, they will grow faster."
         },
         "icon": {
-            "item": "minecraft:bow"
+            "item": "minecraft:bone_meal"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:bow"
+                            "minecraft:bone_meal"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_attack_enemies/kill_spider"
+    "parent": "beginner:phase_attack_enemies/kill_skeleton"
 }

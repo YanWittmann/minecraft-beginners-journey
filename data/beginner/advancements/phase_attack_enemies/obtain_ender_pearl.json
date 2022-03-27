@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Craft a bow"
+            "text": "Collect an ender pearl"
         },
         "description": {
-            "text": "Use the string you got from the spiders and some sticks to craft a bow.\nYou'll learn how to get arrows by pursuing the seeds branch or by killing skeletons."
+            "text": "Enderman will drop ender pearls. Throwing those will teleport you where they land.\nDo not waste them however, you will need a lot of them for later."
         },
         "icon": {
-            "item": "minecraft:bow"
+            "item": "minecraft:ender_pearl"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:bow"
+                            "minecraft:ender_pearl"
                         ],
                         "count": {
                             "min": 1
@@ -31,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_attack_enemies/kill_spider"
+    "parent": "beginner:phase_attack_enemies/kill_enderman"
 }

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill an enderman"
+        },
+        "description": {
+            "text": "Enderman will not attack you unless you attack them first or look them into the eyes.\nThey can teleport and attack you. Jump into water and you'll be safe, for now."
+        },
+        "icon": {
+            "item": "minecraft:enderman_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "types": [
+                        "minecraft:enderman"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "beginner:phase_attack_enemies/kill_any_enemy"
+}
