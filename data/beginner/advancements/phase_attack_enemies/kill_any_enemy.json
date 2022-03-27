@@ -35,7 +35,8 @@
                         "minecraft:husk",
                         "minecraft:guardian",
                         "minecraft:shulker",
-                        "minecraft:stray"
+                        "minecraft:stray",
+                        "minecraft:squid"
                     ]
                 }
             }

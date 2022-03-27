@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Craft an iron pickaxe"
+            "text": "Find sugar cane"
         },
         "description": {
-            "text": "Use iron ingots and some sticks to craft an iron pickaxe. With this, you can mine almost all blocks and all ores. If your hunger bar is empty, now is the time to pursue the food branch."
+            "text": "Sugar cane can be found around beaches and rivers. Collect every piece you can find and place them next to water near your base to grow even more.\nThey can be crafted into either sugar or paper."
         },
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:sugar_cane"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,8 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_pickaxe",
-                            "minecraft:diamond_pickaxe"
+                            "minecraft:sugar_cane"
                         ],
                         "count": {
                             "min": 1
@@ -32,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_stone_age/smelt_iron"
+    "parent": "beginner:phase_stone_age/craft_stone_hoe"
 }

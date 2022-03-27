@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Craft an iron pickaxe"
+            "text": "Craft some paper"
         },
         "description": {
-            "text": "Use iron ingots and some sticks to craft an iron pickaxe. With this, you can mine almost all blocks and all ores. If your hunger bar is empty, now is the time to pursue the food branch."
+            "text": "Use three sugar cane to craft a paper. You will need those for later."
         },
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:paper"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,8 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_pickaxe",
-                            "minecraft:diamond_pickaxe"
+                            "minecraft:paper"
                         ],
                         "count": {
                             "min": 1
@@ -32,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_stone_age/smelt_iron"
+    "parent": "beginner:phase_shelter/obtain_sugar_cane"
 }

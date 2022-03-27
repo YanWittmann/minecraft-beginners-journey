@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Craft an iron pickaxe"
+            "text": "Collect some ink sacks"
         },
         "description": {
-            "text": "Use iron ingots and some sticks to craft an iron pickaxe. With this, you can mine almost all blocks and all ores. If your hunger bar is empty, now is the time to pursue the food branch."
+            "text": "Squids will drop ink sacks. Collect a few of them, you might need them for later."
         },
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:ink_sac"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,8 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_pickaxe",
-                            "minecraft:diamond_pickaxe"
+                            "minecraft:ink_sac"
                         ],
                         "count": {
                             "min": 1
@@ -32,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_stone_age/smelt_iron"
+    "parent": "beginner:phase_attack_enemies/kill_squid"
 }

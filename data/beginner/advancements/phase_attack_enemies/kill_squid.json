@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill a squid"
+        },
+        "description": {
+            "text": "Squids are found in ocean biomes or rivers. They are slow and harmless.\nThey drop ink when killed."
+        },
+        "icon": {
+            "item": "minecraft:squid_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "types": [
+                        "minecraft:squid"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "beginner:phase_attack_enemies/kill_any_enemy"
+}

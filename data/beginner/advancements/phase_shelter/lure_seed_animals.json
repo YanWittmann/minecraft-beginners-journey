@@ -19,5 +19,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "beginner:phase_shelter/obtain_wheat"
+    "parent": "beginner:phase_shelter/obtain_seeds"
 }
