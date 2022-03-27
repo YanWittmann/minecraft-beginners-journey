@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a stone shovel"
+        },
+        "description": {
+            "text": "Use cobblestone and some sticks to craft a stone shovel. Using the shovel, you can break blocks like dirt, gravel and sand a lot faster."
+        },
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stone_shovel",
+                            "minecraft:iron_shovel",
+                            "minecraft:golden_shovel",
+                            "minecraft:diamond_shovel"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_1/collect_3_cobblestone"
+}

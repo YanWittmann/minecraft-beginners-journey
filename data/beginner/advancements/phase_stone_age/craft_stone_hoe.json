@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a stone hoe"
+        },
+        "description": {
+            "text": "Use cobblestone and some sticks to craft a stone hoe. Using the hoe, you can plant crops to grow your own food."
+        },
+        "icon": {
+            "item": "minecraft:stone_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stone_hoe",
+                            "minecraft:iron_hoe",
+                            "minecraft:golden_hoe",
+                            "minecraft:diamond_hoe"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_1/collect_3_cobblestone"
+}
