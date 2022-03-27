@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Obtain feathers"
+        },
+        "description": {
+            "text": "Using your spare seeds, grow yourself a chicken farm.\nAt some point, you'll have enough chicken. Now go get their feathers! You'll figure out how."
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:feather"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_shelter/lure_seed_animals"
+}

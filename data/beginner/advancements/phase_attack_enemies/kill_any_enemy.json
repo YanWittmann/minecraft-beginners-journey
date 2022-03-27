@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill an enemy"
+        },
+        "description": {
+            "text": "There are many dangers in the night, but also when exploring caves."
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "types": [
+                        "minecraft:zombie",
+                        "minecraft:skeleton",
+                        "minecraft:creeper",
+                        "minecraft:spider",
+                        "minecraft:cave_spider",
+                        "minecraft:ghast",
+                        "minecraft:slime",
+                        "minecraft:enderman",
+                        "minecraft:silverfish",
+                        "minecraft:witch",
+                        "minecraft:blaze",
+                        "minecraft:magma_cube",
+                        "minecraft:husk",
+                        "minecraft:guardian",
+                        "minecraft:shulker",
+                        "minecraft:stray"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/craft_stone_sword"
+}

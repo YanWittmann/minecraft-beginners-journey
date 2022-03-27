@@ -45,5 +45,5 @@
             }
         }
     },
-    "parent": "beginner:phase_shelter/lure_animals"
+    "parent": "beginner:phase_shelter/lure_wheat_animals"
 }

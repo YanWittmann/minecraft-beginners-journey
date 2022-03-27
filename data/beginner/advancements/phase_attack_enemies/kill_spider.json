@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill a spider"
+        },
+        "description": {
+            "text": "Spiders will climb any surface to reach you. Thanks to their relatively large body size, they are easy to hit.\nThey drop string and spider eyes."
+        },
+        "icon": {
+            "item": "minecraft:spider_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "types": [
+                        "minecraft:spider",
+                        "minecraft:cave_spider"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "beginner:phase_attack_enemies/kill_any_enemy"
+}
