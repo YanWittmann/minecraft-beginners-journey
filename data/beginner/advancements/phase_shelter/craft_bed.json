@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Craft a bed"
+        },
+        "description": {
+            "text": "Craft a shear using 2 iron. Right-click a sheep to make it drop it's wool. Use three wool and some wood to craft a bed.\nUsing the bed, you can skip nighttime."
+        },
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_bed",
+                            "minecraft:red_bed",
+                            "minecraft:blue_bed",
+                            "minecraft:orange_bed",
+                            "minecraft:green_bed",
+                            "minecraft:purple_bed",
+                            "minecraft:cyan_bed",
+                            "minecraft:light_gray_bed",
+                            "minecraft:gray_bed",
+                            "minecraft:pink_bed",
+                            "minecraft:lime_bed",
+                            "minecraft:yellow_bed",
+                            "minecraft:light_blue_bed",
+                            "minecraft:magenta_bed",
+                            "minecraft:orange_bed"
+                        ],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_shelter/lure_animals"
+}

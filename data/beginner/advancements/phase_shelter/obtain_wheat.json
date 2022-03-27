@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Craft a stone hoe"
+            "text": "Harvest wheat"
         },
         "description": {
-            "text": "Use cobblestone and some sticks to craft a stone hoe. Using the hoe, you can plant crops to grow your own food."
+            "text": "When the wheat is fully grown, left-click to harvest it. It will drop wheat and some more seeds. Plant those seeds to enlarge your fields."
         },
         "icon": {
-            "item": "minecraft:stone_hoe"
+            "item": "minecraft:wheat"
         },
         "frame": "task",
         "show_toast": true,
@@ -21,11 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:stone_hoe",
-                            "minecraft:iron_hoe",
-                            "minecraft:golden_hoe",
-                            "minecraft:diamond_hoe",
-                            "minecraft:netherite_hoe"
+                            "minecraft:wheat"
                         ],
                         "count": {
                             "min": 1
@@ -35,5 +31,5 @@
             }
         }
     },
-    "parent": "beginner:phase_1/collect_3_cobblestone"
+    "parent": "beginner:phase_shelter/plant_seed"
 }

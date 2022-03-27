@@ -1,0 +1,59 @@
+{
+    "display": {
+        "title": {
+            "text": "Plant your seeds"
+        },
+        "description": {
+            "text": "Use your hoe to make farmland by right-clicking grass or dirt that is a maximum of 4 blocks away from a water source and plant your seeds."
+        },
+        "icon": {
+            "item": "minecraft:stone_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "wheat": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:wheat"
+        }
+      },
+      "pumpkin_stem": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:pumpkin_stem"
+        }
+      },
+      "melon_stem": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:melon_stem"
+        }
+      },
+      "beetroots": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:beetroots"
+        }
+      },
+      "nether_wart": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:nether_wart"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "wheat",
+        "pumpkin_stem",
+        "melon_stem",
+        "beetroots",
+        "nether_wart"
+      ]
+    ],
+    "parent": "beginner:phase_shelter/obtain_seeds"
+}

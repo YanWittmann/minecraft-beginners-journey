@@ -4,7 +4,7 @@
             "text": "Craft a stone axe"
         },
         "description": {
-            "text": "Use cobblestone and some sticks to craft a stone axe. Using the axe, you can break wood-type blocks a lot faster."
+            "text": "Use cobblestone and some sticks to craft a stone axe. Using the axe, you can break wood-type blocks a lot faster. An axe deals more damage than a sword, but takes longer to recharge."
         },
         "icon": {
             "item": "minecraft:stone_axe"
@@ -24,7 +24,8 @@
                             "minecraft:stone_axe",
                             "minecraft:iron_axe",
                             "minecraft:golden_axe",
-                            "minecraft:diamond_axe"
+                            "minecraft:diamond_axe",
+                            "minecraft:netherite_axe"
                         ],
                         "count": {
                             "min": 1

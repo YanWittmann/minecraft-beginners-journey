@@ -8,3 +8,6 @@ execute if entity @e[type=blaze,distance=..20] run advancement grant @a only beg
 
 execute at @e[type=#throwables] if entity @e[type=end_crystal,distance=..2] run advancement grant @a only beginner:phase_end_1/destroy_end_crystal
 execute at @e[type=arrow] if entity @e[type=end_crystal,distance=..5] run advancement grant @a only beginner:phase_end_1/destroy_end_crystal
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:wheat"}}] at @s if entity @e[type=#lured_by_wheat,distance=..5] run advancement grant @a only beginner:phase_shelter/lure_animals
+execute as @a[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s if entity @e[type=chicken,distance=..5] run advancement grant @a only beginner:phase_shelter/lure_animals

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Collect 20 seeds"
+        },
+        "description": {
+            "text": "Seeds can be found by breaking the grass on the ground. Just hold down your left mouse button to break all the grass around you."
+        },
+        "icon": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wheat_seeds",
+                            "minecraft:beetroot_seeds",
+                            "minecraft:melon_seeds",
+                            "minecraft:pumpkin_seeds",
+                            "minecraft:carrot",
+                            "minecraft:potato"
+                        ],
+                        "count": {
+                            "min": 20
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "beginner:phase_stone_age/craft_stone_hoe"
+}
